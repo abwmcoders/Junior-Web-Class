@@ -1,0 +1,77 @@
+*{
+    font-family: mukta,sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    height: 100vh;
+    background-color: purple;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero .content{
+    border: 2px ;
+    padding: 20px;
+    width: 70%;
+}
+.hero .content h1{
+color: white;
+text-transform: capitalize;
+font-size: 90px;
+font-weight: 100;
+margin-bottom: 30px;
+text-align: center;
+
+}
+.hero .content p{
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+hr{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.main{
+    padding: 40px;
+}
+.about-css .span{
+    color: orange;
+}
+img{
+    float: left;
+    padding: 20px;
+}
+
+.main {
+    width: 800px;
+}
+
+.main, h5 {
+    justify-content: center;
+}
+
+span {
+    color: red;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.typo {
+    font-size: 40px;
+    align-items: center;
+    display: inline;
+    justify-content: center;
+    align-self: center;
+    padding-left: 20px;
+    text-shadow: 5px 5px 2px gray;
+}
